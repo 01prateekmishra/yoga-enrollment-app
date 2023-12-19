@@ -4,12 +4,13 @@
   "description": "The Yoga Enrollment App simplifies the process of enrolling in monthly yoga classes. This application features a React-based frontend and a Node.js/Express backend. Users can seamlessly fill out enrollment forms and choose preferred batches for yoga sessions.",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\" ",
-    "build": "concurrently \"npm i\" \"cd backend && npm i\" \"cd frontend && npm i\""
+    "build": "npm i && cd frontend && npm i && cd ../backend && npm i",
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\" "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "npm-run-all": "^4.1.5"
   }
 }
