@@ -2,6 +2,9 @@
 
 The Yoga Enrollment App simplifies the process of enrolling in monthly yoga classes. This application features a React-based frontend and a Node.js/Express backend. Users can seamlessly fill out enrollment forms and choose preferred batches for yoga sessions.
 
+## Live Demo
+
+Check out the live demo of the Yoga Enrollment App: [Yoga Enrollment App](https://yoga-enrollment-app.onrender.com/)
 ## Getting Started
 
 Follow these instructions to set up and run the project on your local machine for development and testing purposes.
