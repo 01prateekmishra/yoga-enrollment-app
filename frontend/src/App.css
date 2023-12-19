@@ -73,11 +73,12 @@ button:hover {
 }
 
 @media screen and (max-width: 450px) {
+
   .container {
-    width: 86%;
+    width: 88%;
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 25px;
   }
 }

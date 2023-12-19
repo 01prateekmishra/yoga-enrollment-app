@@ -39,7 +39,7 @@ const EnrollmentForm = () => {
             setSuccessMessage('');
 
             // Call the backend API
-            const response = await axios.post('http://localhost:3001/api/enroll', formData);
+            await axios.post('http://localhost:3001/api/enroll', formData);
 
             // Set success message and update state to show success screen
             setSuccessMessage('Enrollment successful!');
