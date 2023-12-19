@@ -17,45 +17,59 @@ Ensure you have the following installed on your machine:
 
 1. Clone the repository:
 
+   ```bash
    git clone https://github.com/01prateekmishra/yoga-enrollment-app.git
+   ```
 
 2. Navigate to the project directory:
 
+   ```bash
    cd yoga-enrollment-app
+   ```
 
 3. Install dependencies for the backend:
 
+   ```bash
    cd backend
    npm install
+   ```
 
 4. Install dependencies for the frontend:
 
+   ```bash
    cd frontend
    npm install
+   ```
 
 ### Setting Up MongoDB
 
 1. Ensure that MongoDB is running either locally or you have a MongoDB Atlas account.
 
-2. Update the MongoDB connection string in `server.js` with your actual connection string
+2. Update the MongoDB connection string in `server.js` with your actual connection string:
 
+   ```javascript
    // server.js
 
    mongoose.connect('your-mongodb-connection-string');
+   ```
 
 ### Running the Application
 
 1. Start the server:
 
+   ```bash
    cd backend
    node server.js
+   ```
 
    The server will run on `http://localhost:3001`.
 
 2. Start the client:
 
+   ```bash
    cd frontend
    npm start
+   ```
 
    The client will run on `http://localhost:3000`.
 
