@@ -140,3 +140,38 @@ The project follows a modular folder structure to maintain a clear separation of
 
 - The user interface is designed to be simple and intuitive, providing a smooth enrollment experience.
 - Error and success messages are displayed to provide feedback to the user.
+
+- ## Database Schema
+
+Here's an extended version of the ER (Entity-Relationship) diagram representing the database schema for the Yoga Enrollment App:
+
+### Entities:
+
+1. **User:**
+   - Attributes: 
+     - id (Primary Key)
+     - name
+     - age
+     - email
+
+2. **Enrollment:**
+   - Attributes: 
+     - id (Primary Key)
+     - email
+     - user_id (Foreign Key -> User)
+     - batch_id (Foreign Key -> Batch)
+     - month
+
+4. **Payment:**
+   - Attributes:
+     - id (Primary Key)
+     - user_id (Foreign Key -> User)
+     - amount
+     - timestamp
+
+### Relationships:
+
+- Each User can have multiple Enrollments (One-to-Many relationship).
+- Each Enrollment is associated with one User.
+- Each Enrollment is associated with one Batch.
+- Each Payment is associated with one User.
