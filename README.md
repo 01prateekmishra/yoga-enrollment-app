@@ -141,7 +141,7 @@ The project follows a modular folder structure to maintain a clear separation of
 - The user interface is designed to be simple and intuitive, providing a smooth enrollment experience.
 - Error and success messages are displayed to provide feedback to the user.
 
-- ## Database Schema
+## Database Schema
 
 Here's an extended version of the ER (Entity-Relationship) diagram representing the database schema for the Yoga Enrollment App:
 
